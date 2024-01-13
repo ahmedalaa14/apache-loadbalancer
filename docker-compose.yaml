@@ -1,14 +1,14 @@
 version: '3'
 
 services:
-  apache_1:
-        container_name: apache_1
-        build: ./apache_1
+  apache1:
+        container_name: apache1
+        build: ./apache1
         ports: 
           - 6060:80
-  apache_2:
-        container_name: apache_2
-        build: ./apache_2
+  apache2:
+        container_name: apache2
+        build: ./apache2
         ports: 
           - 7070:80        
         deploy:
